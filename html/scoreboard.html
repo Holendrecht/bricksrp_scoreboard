@@ -1,0 +1,59 @@
+
+<!-- Eerste Fivem Lua Project! Pas alleen deze folder aan! -->
+<!-- Een beteren versie van esx_scoreboard ! -->
+<!-- Gemaakt voor  "BricksRP"-->
+<!-- Author: Ho𝕳𝖔𝖑𝖊𝖓𝖉𝖗𝖊𝖈𝖍𝖙#7589  -->
+<html>
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://bricksrp_scoreboard/html/listener.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="nui://bricksrp_scoreboard/html/style.css">
+</head>
+
+<body>
+
+	<div style="display: none;" id="wrap">
+	
+<div class="header">
+
+ <div id="logo">
+  <img src="logo.png">
+ </div>
+ 
+ <div id="informatie">
+  <ul>
+			<p>Online Spelers: <span id="player_count">0</span> / <span id="max_players">0</span> <span style="font-size: 1.2vw"></span></p> <!-- Laat zien hoeveel spelers er online zijn-->
+			<p>Server Uptime: <span id="server_uptime"></span><span style="font-size: 1.2vw"> </span></p> <!-- Laat zien hoelang de server online is-->
+			<p>Playtime: <span id="play_time"></span></p>    <!-- Laat zien hoelang je achter elkaar op de server speelt!-->
+	</ul>
+ </div>
+ 
+</div>
+
+<div id="onlineBanen">
+<p>Ambulance <span id="ems">X</span> </p> <!-- Laat zien hoeveel Ambulance er online is-->
+<p>Politie <span id="police">X</span> </p> <!-- Laat zien hoeveel Politie er online is-->
+<p>Taxi <span id="taxi">X</span> </p> <!-- Laat zien hoeveel Taxi's er online zijn-->
+<p>ANWB <span id="mechanic">X</span> </p> <!-- Laat zien hoeveel ANWB er online zijn-->
+</div>	
+<div id="spelers">
+
+		<div class="playerlist">
+			<table id="playerlist" width="100%">
+				<tr class="heading">
+					<th>Naam</th>
+					<th>ID</th>
+					<th>Ping</th>
+					<th>Naam</th>
+					<th>ID</th>
+					<th>Ping</th>
+				</tr>
+			</table>
+		</div>
+		
+</div>
+
+	</div>
+</body>
+
+</html>
